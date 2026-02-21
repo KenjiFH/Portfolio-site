@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kenji Fahselt | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#bio">Bio</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="bio" class="fade-in">
+        <h1>Kenji FAhselt.</h1>
+            <h2>User-Centric Software Engineer</h2>
+            <p>
+              I build robust backends, intelligent AI systems, and seamless user experiences. I specialize in finding the intersection where highly technical implementation—like machine learning and data analytics—meets creative design aesthetics.
+            </p>
+
+        <div style="margin-top: 1.5rem; display: flex; gap: 15px">
+          <a
+            href="https://github.com/KenjiFH"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn"
+            >GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/kenji-fahselt-9ba91138a/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn"
+            >LinkedIn</a
+          >
+        </div>
+      </section>
+
+      <section id="experience">
+        <h2>Work Experience</h2>
+        <div class="card">
+          <div class="card-header">
+            <h3>Research & Development Intern</h3>
+            <span>Summer 2025 - Winter 2026</span>
+          </div>
+          <p class="company">Apexiel Inc.</p>
+          <ul>
+            <li>
+              Led the end-to-end development of an iOS telemetry analysis
+              application as the sole Software Engineer, enabling the startup to
+              hit MVP launch deadlines for early user testing.
+            </li>
+             <li>
+              Partnered with the CEO to translate business requirements into a technical roadmap for
+the MVP launch.
+            </li>
+            <li>
+              Engineered core data-tracking features (turn detection, driving
+              lines) to translate complex sensor data into actionable insights
+              for drivers in high-speed environments.
+            </li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Undergraduate Research Assistant</h3>
+            <span>Spring - Summer 2025</span>
+          </div>
+          <p class="company">University of Washington Bothell</p>
+          <ul>
+            <li>
+              Solo Developed the navigation simulation layer for an autonomous
+              ATV project, collaborating with Mechanical and Electrical
+              Engineers to translate physical vehicle dynamics into working
+              navigation code.
+            </li>
+            <li>
+              Simulated high-fidelity sensor environments(LIDAR) in software,
+              eliminating the need for expensive physical hardware testing and
+              accelerating the project timeline.
+            </li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>General Officer</h3>
+            <span>Present</span>
+          </div>
+          <p class="company">Google Developer Student Clubs (GDSC)</p>
+        </div>
+      </section>
+         <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="tabs">
+          <button class="tab-btn active" onclick="openTab(event, 'technical')">
+            Technical
+          </button>
+          <button class="tab-btn" onclick="openTab(event, 'ux')">
+            UX / Design
+          </button>
+        </div>
+
+        <div id="technical" class="tab-content active">
+           <div class="card project-card">
+            <h3>Real-Time Gesture Recognition </h3>
+            <p class="tech-stack">Python, OpenCV, Mediapipe, Scikit-Learn, NumPy</p>
+            <p>
+             Engineered a Real-Time Gesture Recognition engine with MediaPipe, Jupyter, and Scikit, allows user to train and record their own gestures with a modular strategy pattern
+            </p>
+            <a href="https://github.com/KenjiFH/jjksigns" class="btn">View Source</a>
+          </div>
+              <div class="card project-card">
+            <h3>Financial Intelligence Agent</h3>
+            <p class="tech-stack">Python, LangChain, Ollama, ChromaDB</p>
+            <p>
+              Developed a financial agent to parse and analyze financial data
+              using ollama, RAG and vector databases.
+            </p>
+            <a href="https://github.com/KenjiFH/Comparitive-Analyst-Agent" class="btn">View Source</a>
+          </div>
+
+            <div class="card project-card">
+            <h3>GreenLog iOS</h3>
+            <p class="tech-stack">Swift, SwiftUI</p>
+            <p>
+              For UWBHACKS 2025, Built a a carbon emissons tracking IOS app, used coremotion/location for vehicle tracking, avfoundation for barcode scanning, and UIkit/graphs for visualization
+            </p>
+            <a href="https://github.com/KenjiFH/UWB_STW_25" class="btn">View Source</a>
+          </div>
+        </div>
+        </div>
+      
+
+         
+
+        <div id="ux" class="tab-content">
+          <div class="card project-card">
+            <h3>RX - Rallycross Telemetry iOS App mockup</h3>
+            <p class="tech-stack">Figma, Miro</p>
+            <p>
+              Created a high fidelity IOS mockup for a Rallycross Telemetry iOS App
+            </p>
+            <div class="img-container">
+  <img src="images/figma-rx-sc.png" alt="Description">
+</div>
+            <a href="https://www.figma.com/design/59dXuM6VpwGxqZpIkprya9/Apexiel-RX-mockup?t=eGtw4jBjQTjlnmBA-0" class="btn">View Design</a>
+          </div>
+
+       
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <div class="card">
+          <div class="card-header">
+            <h3>University of Washington Bothell</h3>
+            <span>Expected June 2027</span>
+          </div>
+          <p>
+            <strong>B.S. in Computer Science & Software Engineering</strong>
+          </p>
+          <p>Minor in Data Science</p>
+        </div>
+      </section>
+
+   
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Kenji Fahselt. Hosted on GitHub Pages.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
